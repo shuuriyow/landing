@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landing page</title>
-    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="./src/output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <style>
     .bg{
-        background-image: url(Path.png);
-        background-size:cover;
+        background-image: url(./src/Path.png);
+        background-size: auto;
         background-position: center;
         background-repeat: no-repeat;
         height: 85vh;
@@ -61,7 +61,7 @@
        </div>
        <!-- right -->
        <div class="w-110 h-screen mr-30">
-        <img src="group.png" alt="" class="w-full">
+        <img src="./src/Group.png" alt="" class="w-full">
        </div>
       </div>
        <!-- body -->
@@ -97,7 +97,7 @@
         <div class="flex justify-between ml-50">
             <!-- left -->
         <div class="w-[530px] h-screen ">
-            <img src="body.jpg" alt="" class="w-full">
+            <img src="./src/body.jpg" alt="" class="w-full">
         </div>
         <!-- right -->
         <div class="w-[430ox] mr-40 ">
@@ -112,7 +112,7 @@
         <div class="flex justify-between ml-50">
             <!-- left -->
         <div class="w-[530px] h-screen ">
-            <img src="socail.png" alt="" class="w-full">
+            <img src="./src/socail.png" alt="" class="w-full">
         </div>
         <!-- right -->
         <div class="w-[430ox] mr-40 ">
@@ -127,10 +127,11 @@
         <div class="flex justify-between ml-50">
             <!-- left -->
         <div class="w-[530px] h-screen ">
-            <img src="undraw_mention_6k5d.png" alt="" class="w-full">
+            <img src="./src/undraw_mention_6k5d.png" alt="" class="w-full">
         </div>
         <!-- right -->
         <div class="w-[430ox] mr-40 ">
+
             <h1 class="text-5xl font-bold mt-10 mb-10 ">Light, Fast & Powerful</h1>
             <p class="w-120 text-xl text-blue-900 mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Optio, cupiditate perspiciatis saepe aspernatur rerum amet quas Lorem ipsum dolor sit amet consectetur 
@@ -142,35 +143,37 @@
         <!-- price -->
           <div class="w-[100%]  bg-gray-200  items-center justify-center flex flex-col ">
           
-            <h1 class="text-5xl font-bold mt-10 mb-10 ">A Price To Suit Everyone</h1>
+            <h1 class="text-4xl font-bold mt-10 mb-8 ">A Price To Suit Everyone</h1>
             <p class="w-120 text-xl text-blue-900 mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Optio, cupiditate perspiciatis saepe aspernatur rerum amet quas Lorem ipsum dolor sit amet 
                </p>
-                <h1 class="text-5xl font-bold text-blue-950 mb-2  ">$40</h1>
+                <h1 class="text-4xl font-bold text-blue-950 mb-2  ">$40</h1>
                 <p class=" text-blue-900 mb-10">UI Design Kit</p>
-                <p class="  text-blue-900 mb-2 ">See, One price. Simple.</p>
-                <button class="bg-blue-950 text-white px-14 py-2 rounded  hover:bg-blue-600">Burcharse UI Kit</button>
+                <p class="  text-blue-900  ">See, One price. Simple.</p>
+                <button class="bg-blue-950 text-white px-14 py-2 rounded mb-10  hover:bg-blue-600 ">Burcharse UI Kit</button>
           </div>  
           <!-- footer -->
-        <div class="w-[100%] mt-20 bg-gray-200 ">
+        <div class="w-[100%] mt-20  bg-blue-100 ">
             <!--  top-br -->
             <div class="flex justify-between p-4 mt-20">
              <p class="text-blue-900 mb-2 ml-10 ">©2025 xikmaawi. All rights reserved.</p>
             <h1 class="text-blue-950 hover:text-blue-600 text-5xl font-bold">Landing</h1>
                 <button class="bg-blue-950 mr-10 text-white px-14 py-2 rounded mb-10 hover:bg-blue-600">Burcharse Now</button>
             </div>
-                <hr class=" mr-10 ml-10  h-1 bg-gray-200 ">
+                <hr class=" mr-8 ml-8  h-1 text-gray-400 ">
 
-                <ul class="flex justify-around p-4 mt-2">
-                        <li class="hover:text-blue-600 text-xl"><a href="#">Home</a></li>
-                    <li class="hover:text-blue-600 text-xl"><a href="#">About</a></li>
-                    <li class="hover:text-blue-600 text-xl"><a href="#">Contact Us</a></li> 
-                    <li class="hover:text-blue-600 text-xl"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li class="hover:text-blue-600 text-xl"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li class="hover:text-blue-600 text-xl"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li class="hover:text-blue-600 text-xl"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <div class="flex justify-between p-4 mt-2 list-none">
+                <ul class="flex space-x-10">
+                    <li class="hover:text-blue-600 text-xl"><a href="#">Home</a></li>
+                <li class="hover:text-blue-600 text-xl"><a href="#">About</a></li>
+                <li class="hover:text-blue-600 text-xl"><a href="#">Contact Us</a></li>    
                 </ul>
-            
+               
+                <li class="hover:text-blue-600 text-xl"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="hover:text-blue-600 text-xl"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="hover:text-blue-600 text-xl"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="hover:text-blue-600 text-xl"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            </div>
           </div>
      </div>
     
